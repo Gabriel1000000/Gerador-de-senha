@@ -9,10 +9,10 @@
 :root{
     --cor01:#020202dc;
     --cor02:#ffffff;
-    --cor03:#008000;
+    --cor03:#1d861d;
 }
 body{
-    background-color: var(--cor01);
+    background-image: linear-gradient(to left, var(--cor01), var(--cor03), var(--cor01));
     width: 100%;
     height: 100vh;
     display: flex;
@@ -43,7 +43,7 @@ body{
 }
 .button-gs{
     height: 40px;
-    background-color: var(--cor03);
+    background-color: var(--cor01);
     color: var(--cor02);
     font-size: 18px;
     border: 0;
